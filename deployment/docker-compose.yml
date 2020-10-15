@@ -43,5 +43,5 @@ services:
         volumes:
             - my-db:/var/lib/mysql
     # Names our volume
-    volumes:
-        my-db:
+volumes:
+    my-db:
